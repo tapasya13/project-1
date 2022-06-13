@@ -41,14 +41,29 @@ console.log(b);
 const lessThanNinety = (num) => {
   // return true if num is less than ninety
   // otherwise return false
-  // code here
+  if(num<90){
+    return true
+  } else{
+    return false;
+  }
 };
+let c=lessThanNinety(10);
+console.log("lessThanNinety " +c);
+//lessThanNinety(100);
 
-const greaterThanFifty = (num) => {
+function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
-  // code here
+  if(num>50){
+    return true;
+  } else{
+    return false;
+  };
 };
+
+
+
+
 
 const add = (x, y) => {
   // add x and y together and return the value
