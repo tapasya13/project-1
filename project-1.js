@@ -126,8 +126,9 @@ square(4);
 
 const cube = (num) => {
   // cube num and return the new value
-  // code here
+  console.log(num*num*num)
 };
+cube(3);
 
 const raiseToPower = (num, exponent) => {
   // raise num to whatever power is passed in as exponent
