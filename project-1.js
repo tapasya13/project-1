@@ -132,13 +132,12 @@ cube(3);
 
 const raiseToPower = (num, exponent) => {
   // raise num to whatever power is passed in as exponent
-  // code here
-};
+return Math.pow(num,exponent)
 
-const roundNumber = (num) => {
+function roundNumber(num) {
   // round num and return it
   // code here
-};
+}
 
 const roundUp = (num) => {
   // round num up and return it
