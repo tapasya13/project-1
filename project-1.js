@@ -47,59 +47,75 @@ const lessThanNinety = (num) => {
     return false;
   }
 };
-let c=lessThanNinety(10);
+let c=lessThanNinety(50);
 console.log("lessThanNinety " +c);
 //lessThanNinety(100);
 
 function greaterThanFifty(num) {
-  // return true if num is greater than fifty
-  // otherwise return false
+   //return true if num is greater than fifty
+   //otherwise return false
   if(num>50){
-    return true;
+    console.log(true);
   } else{
-    return false;
+    console.log(false);
   };
 };
+greaterThanFifty(90);
 
 
 
 
 
 const add = (x, y) => {
-  // add x and y together and return the value
-  // code here
+   //add x and y together and return the value
+  console.log(x,y)
 };
+add(10+20);
 
 const subtract = (x, y) => {
   // subtract y from x and return the value
-  // code here
+  console.log(x,y)
 };
+subtract(20-10);
+
 
 const divide = (x, y) => {
   // divide x by y and return the value
-  // code here
+  console.log(x,y)
 };
+divide(10/10);
 
 const multiply = (x, y) => {
   // multiply x by y and return the value
-  // code here
+  console.log(x,y)
 };
+multiply(10*1);
 
 const getRemainder = (x, y) => {
   // return the remainder from dividing x by y
-  // code here
+   console.log(x,y)
 };
+getRemainder(5%10);
 
 const isEven = (num) => {
   // return true if num is even
   // otherwise return false
-  // code here
+  if(num%2===0){
+    return true;
+  }else{
+    return false;
+  }
+  
 };
 
 const isOdd = (num) => {
   // return true if num is odd
   // otherwise return false
-  // code here
+  if (num !=0) {
+    return true;
+  }else{
+    return false;
+  }
 };
 
 const square = (num) => {
