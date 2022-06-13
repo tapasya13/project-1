@@ -120,8 +120,9 @@ const isOdd = (num) => {
 
 const square = (num) => {
   // square num and return the new value
-  // code here
+  console.log(num*num)
 };
+square(4);
 
 const cube = (num) => {
   // cube num and return the new value
