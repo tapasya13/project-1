@@ -133,15 +133,17 @@ cube(3);
 const raiseToPower = (num, exponent) => {
   // raise num to whatever power is passed in as exponent
 return Math.pow(num,exponent)
+};
 
 function roundNumber(num) {
   // round num and return it
   return Math.round(num);
-}
+};
+
 
 const roundUp = (num) => {
   // round num up and return it
-  // code here
+  return Math.ceil(num);
 };
 
 const addExclamationPoint = (str) => {
