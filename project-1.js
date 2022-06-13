@@ -8,26 +8,35 @@ const multiplyByTen = (num) => {
 
 const subtractFive = (num) => {
   // return num after subtracting five
-   return num-5;
+   console.log(num-5);
 };
+subtractFive(10);
 
 
 const areSameLength = (str1, str2) => {
   // return true if the two strings have the same length
-  // otherwise return false
-  if(str1.length==str2.length){
+  if(str1.length===str2.length) {
     return true;
-    else{
+  }else{
       return false;
-    }
+    };
+    
   };
+  let a = areSameLength("qwerty","qwerty");
+  console.log(a);
 
 
-const areEqual = (x, y) => {
+function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-  // code here
+  if(x===y){
+    return true;
+  } else{
+    return false;
+  };
 };
+let b = areSameLength("mini","mni");
+console.log(b);
 
 const lessThanNinety = (num) => {
   // return true if num is less than ninety
